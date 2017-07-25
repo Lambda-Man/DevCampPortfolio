@@ -22,7 +22,7 @@ class PortfoliosController < ApplicationController
     end
   end
 
-  
+
   def new
     @portfolio_items = Portfolio.new
   end
