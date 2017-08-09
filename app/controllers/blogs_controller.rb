@@ -60,7 +60,7 @@ class BlogsController < ApplicationController
       format.json { head :no_content }
     end
   end
-  
+
   def toggle_status
     redirect_to blogs_url
   end
